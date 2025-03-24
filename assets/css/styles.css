@@ -51,15 +51,14 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-    body{
-        overflow: hidden;
-    }
     .relogio {
         flex-direction: column;
         justify-content: center;
+        margin: auto;
         gap: .7rem;
-        height: 100vh;
-        width: 100vw;
+        box-shadow: none;
+        height: 80vh;
+        width: 50vw;
     }
 
     .relogio div {
